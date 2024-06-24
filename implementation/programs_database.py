@@ -14,6 +14,7 @@
 # ==============================================================================
 
 """A programs database that implements the evolutionary algorithm."""
+from __future__ import annotations
 from collections.abc import Mapping, Sequence
 import copy
 import dataclasses
@@ -24,8 +25,8 @@ from absl import logging
 import numpy as np
 import scipy
 
-from funsearch.implementation import code_manipulation
-from funsearch.implementation import config as config_lib
+from implementation import code_manipulation
+from implementation import config as config_lib
 
 Signature = tuple[float, ...]
 ScoresPerTest = Mapping[Any, float]

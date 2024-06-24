@@ -14,13 +14,14 @@
 # ==============================================================================
 
 """Class for evaluating programs proposed by the Sampler."""
+from __future__ import annotations
 import ast
 from collections.abc import Sequence
 import copy
 from typing import Any
 
-from funsearch.implementation import code_manipulation
-from funsearch.implementation import programs_database
+from implementation import code_manipulation
+from implementation import programs_database
 
 
 class _FunctionLineVisitor(ast.NodeVisitor):

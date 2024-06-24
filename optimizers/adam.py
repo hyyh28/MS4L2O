@@ -5,6 +5,7 @@ import torch.nn            as nn
 import torch.optim         as optim
 import torch.nn.functional as F
 from optimizees.base import BaseOptimizee
+from implementation import funsearch
 
 
 class Adam(object):
@@ -45,6 +46,7 @@ class Adam(object):
         self.aveGra2 = torch.zeros_like(optimizees.X)
         self.t = 1
 
+    @funsearch.run
     def clean_state(self, optimizees):
         """
         TBA
@@ -58,6 +60,7 @@ class Adam(object):
         self.t = None
         self.eps = None
 
+    @funsearch.evolve
     def __call__(self, optimizees, step_size=None, *args, **kwargs):
         """
         TBA
