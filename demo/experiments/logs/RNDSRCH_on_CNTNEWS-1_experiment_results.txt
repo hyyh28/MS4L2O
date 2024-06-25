@@ -1,0 +1,103 @@
+./experiments/outputs/RNDSRCH_on_CNTNEWS-1.pickle
+Problem: CNTNEWS-1
+Solver: RNDSRCH
+
+Model Factors:
+	purchase_price: 5.0
+	sales_price: 9.0
+	salvage_price: 1.0
+	Burr_c: 2.0
+	Burr_k: 20.0
+
+Problem Factors:
+	initial_solution: (0,)
+	budget: 1000
+
+Solver Factors:
+	crn_across_solns: True
+	sample_size: 10
+
+10 macroreplications were run.
+200 postreplications were run at each recommended solution.
+
+The initial solution is (0,). Its estimated objective is 0.0.
+The proxy optimal solution is (0.1969,). Its estimated objective is 0.5096.
+200 postreplications were taken at x0 and x_star.
+
+Macroreplication Results:
+
+Macroreplication 1:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 20	Recommended Solution: (0.0864,)	Estimated Objective: 0.3152
+	Budget: 80	Recommended Solution: (0.162,)	Estimated Objective: 0.4439
+	Budget: 520	Recommended Solution: (0.22,)	Estimated Objective: 0.4257
+	Budget: 940	Recommended Solution: (0.1807,)	Estimated Objective: 0.4483
+	Budget: 1000	Recommended Solution: (0.1807,)	Estimated Objective: 0.4483
+
+Macroreplication 2:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 30	Recommended Solution: (0.3423,)	Estimated Objective: 0.2318
+	Budget: 40	Recommended Solution: (0.2541,)	Estimated Objective: 0.4461
+	Budget: 370	Recommended Solution: (0.1969,)	Estimated Objective: 0.5056
+	Budget: 700	Recommended Solution: (0.2404,)	Estimated Objective: 0.4656
+	Budget: 1000	Recommended Solution: (0.2333,)	Estimated Objective: 0.4743
+
+Macroreplication 3:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 20	Recommended Solution: (0.1607,)	Estimated Objective: 0.439
+	Budget: 120	Recommended Solution: (0.2708,)	Estimated Objective: 0.3335
+	Budget: 230	Recommended Solution: (0.217,)	Estimated Objective: 0.4251
+	Budget: 1000	Recommended Solution: (0.217,)	Estimated Objective: 0.4251
+
+Macroreplication 4:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 20	Recommended Solution: (0.0715,)	Estimated Objective: 0.2732
+	Budget: 60	Recommended Solution: (0.1638,)	Estimated Objective: 0.4856
+	Budget: 130	Recommended Solution: (0.1741,)	Estimated Objective: 0.4945
+	Budget: 290	Recommended Solution: (0.1922,)	Estimated Objective: 0.5
+	Budget: 1000	Recommended Solution: (0.1922,)	Estimated Objective: 0.5
+
+Macroreplication 5:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 30	Recommended Solution: (0.2312,)	Estimated Objective: 0.365
+	Budget: 60	Recommended Solution: (0.1281,)	Estimated Objective: 0.3876
+	Budget: 620	Recommended Solution: (0.1538,)	Estimated Objective: 0.4116
+	Budget: 640	Recommended Solution: (0.1478,)	Estimated Objective: 0.4086
+	Budget: 1000	Recommended Solution: (0.1478,)	Estimated Objective: 0.4086
+
+Macroreplication 6:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 20	Recommended Solution: (0.1422,)	Estimated Objective: 0.4465
+	Budget: 50	Recommended Solution: (0.1484,)	Estimated Objective: 0.4549
+	Budget: 70	Recommended Solution: (0.3022,)	Estimated Objective: 0.3236
+	Budget: 160	Recommended Solution: (0.2066,)	Estimated Objective: 0.4837
+	Budget: 510	Recommended Solution: (0.2577,)	Estimated Objective: 0.428
+	Budget: 940	Recommended Solution: (0.2561,)	Estimated Objective: 0.4309
+	Budget: 1000	Recommended Solution: (0.2561,)	Estimated Objective: 0.4309
+
+Macroreplication 7:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 60	Recommended Solution: (0.0959,)	Estimated Objective: 0.3467
+	Budget: 120	Recommended Solution: (0.18,)	Estimated Objective: 0.4748
+	Budget: 1000	Recommended Solution: (0.18,)	Estimated Objective: 0.4748
+
+Macroreplication 8:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 70	Recommended Solution: (0.0417,)	Estimated Objective: 0.1632
+	Budget: 80	Recommended Solution: (0.0548,)	Estimated Objective: 0.2118
+	Budget: 90	Recommended Solution: (0.2435,)	Estimated Objective: 0.3929
+	Budget: 130	Recommended Solution: (0.2259,)	Estimated Objective: 0.417
+	Budget: 1000	Recommended Solution: (0.2259,)	Estimated Objective: 0.417
+
+Macroreplication 9:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 50	Recommended Solution: (0.0571,)	Estimated Objective: 0.2152
+	Budget: 70	Recommended Solution: (0.2262,)	Estimated Objective: 0.4121
+	Budget: 840	Recommended Solution: (0.2623,)	Estimated Objective: 0.3484
+	Budget: 1000	Recommended Solution: (0.2623,)	Estimated Objective: 0.3484
+
+Macroreplication 10:
+	Budget: 0	Recommended Solution: (0,)	Estimated Objective: 0.0
+	Budget: 30	Recommended Solution: (0.1518,)	Estimated Objective: 0.4149
+	Budget: 340	Recommended Solution: (0.1659,)	Estimated Objective: 0.4262
+	Budget: 1000	Recommended Solution: (0.1659,)	Estimated Objective: 0.4262
